@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>申鲜生</title>
+    <link rel="stylesheet" href="../css/rem.css">
+    <link rel="stylesheet" href="../css/joinUs.css">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+        <div id="content">
+            <!-- 头部 -->
+            <div id="head" >
+                <!-- 顶部导航栏 -->
+                <div class="First">
+                    <div class="box">
+                    <!-- logo图片 -->
+                    <div class="nav-wrap">
+                        <a href="" class="nav-logo">
+                            <img src="../img/k.png" alt="logo">
+                        </a>
+                    </div>
+                    <!-- 导航栏选项 -->
+                    <div id="nav">
+                        <div class="navSelected_0">
+                            <div class="nav_01">
+                                <a href="index.html">首页</a>
+                            </div>
+                            <div class="nav_02">
+                                <a href="aboutUs.html">关于我们</a>
+                            </div>
+                            <div class="nav_03">
+                                <a href="culture.html">企业文化</a>
+                            </div>
+                            <div class="nav_04">
+                                <a href="dynamics.html">企业动态</a>
+                            </div>
+                            <div class="nav_05">
+                                <a href="joinUs.html">加入我们</a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div>
+                    <!-- 文字 -->
+                    <div class="aboutus-1">加入我们</div>
+                    <div class="aboutus-2">Join Us</div>
+                    <div class="aboutus-3"></div>
+                </div>
+            </div>
+            <!-- 中间部分 -->
+            <div class="middle">
+                <div class="joinus-block">
+                    <div class="joinus-line1">
+                        <div class="header" id="header1" type="button">团长招募</div>
+                        <div class="agent" id="agent1" type="button">区域代理招募</div>
+                    </div>
+                </div>
+                <!-- 点击显示 点击隐藏 -->
+                <script> 
+                    $("#header1").click(function () {
+                        $("#headershow").show();
+                        $("#agentshow").hide();
+                        $("#header1").css('color','#ff3000');
+                        $("#agent1").css('color','#333333');
+                        console.log("1")
+                    });
+                    $("#agent1").click(function () {
+                        $("#headershow").hide();
+                        $("#agentshow").show();
+                        $("#header1").css('color','#333333');
+                        $("#agent1").css('color','#ff3000');
+                        console.log("2")
+                    });
+                </script>
+                
+                <div>
+                    <!-- 点击团长招募 -->
+                    <div class="header-block" id="headershow" style="display:block">
+                        <div class="header-name1" >团长招募</div>
+                        <div class="header-img1 pulse-grow">
+                            <img src="../img/l.png" alt="">
+                        </div>
+                        <div class="header-show1">不用囤货，不同投资丰富货品种类。</div>
+
+                        <div class="header-img2 pulse-grow" >
+                            <img src="../img/m.png" alt="">
+                        </div>
+                        <div class="header-show2">消费者自提商品到店，客流络绎不绝。</div>
+
+                        <div class="header-img3 pulse-grow">
+                            <img src="../img/n.png" alt="">
+                        </div>
+                        <div class="header-show3">团长收益3000元以上，上不封顶。</div>
+
+                        <div class="header-img4 pulse-grow">
+                            <img src="../img/o.png" alt="">
+                        </div>
+                        <div class="header-show4">帮你建群，帮你运营，保姆级运营培训。</div>
+                        
+                        <div class="header-name2">申请流程</div>
+                        
+
+
+                        <div class="header-img5  wobble-vertical">
+                            <img src="../img/p.png" alt="">
+                        </div>
+                        <div class="header-show5">提交申请资料</div>
+
+                        <!-- ........ -->
+                        <div class="dot1 animate-bounce-up"></div>
+                        <div class="dot2 animate-bounce-down"></div>
+                        <div class="dot3 animate-bounce-up"></div>
+                        <div class="dot4 animate-bounce-down"></div>
+                        <div class="dot5 animate-bounce-up"></div>
+                        <div class="dot6 animate-bounce-down"></div>
+                        <div class="dot7 animate-bounce-up"></div>
+                        <div class="dot8 animate-bounce-down"></div>
+
+
+                        <div class="header-img6  wobble-vertical">
+                            <img src="../img/q.png" alt="">
+                        </div>
+                        <div class="header-show6">等待区域代理洽谈合作之旅</div>
+
+                        <!-- ........ -->
+                        <div class="dot01 animate-bounce-up"></div>
+                        <div class="dot02 animate-bounce-down"></div>
+                        <div class="dot03 animate-bounce-up"></div>
+                        <div class="dot04 animate-bounce-down"></div>
+                        <div class="dot05 animate-bounce-up"></div>
+                        <div class="dot06 animate-bounce-down"></div>
+                        <div class="dot07 animate-bounce-up"></div>
+                        <div class="dot08 animate-bounce-down"></div>
+
+                        <div class="header-img7  wobble-vertical">
+                            <img src="../img/r.png" alt="">
+                        </div>
+                        <div class="header-show7">申请通过之后开始团长之旅</div>
+
+                    </div>
+
+                    <!-- 点击区域代理 -->
+                    <div id="agentshow" style="display:none">
+                        <div class="agent-name1" >区域代理招募</div>
+                        <div class="agent-img1 pulse-grow">
+                            <img src="../img/s.png" alt="">
+                        </div>
+                        <div class="agent-show1">应有所在区域强大关系网</div>
+
+                        <div class="agent-img2 pulse-grow">
+                            <img src="../img/t.png" alt="">
+                        </div>
+                        <div class="agent-show2">了解社群运营知识具备社群运营能力</div>
+
+                        <div class="agent-img3 pulse-grow">
+                            <img src="../img/u.png" alt="">
+                        </div>
+                        
+                        <div class="agent-show3">了解申鲜生企业文化认同企业价值观</div>
+                    
+                        <div class="header-name2">申请流程</div>
+                        
+
+
+                        <div class="header-img5  wobble-vertical">
+                            <img src="../img/p.png" alt="">
+                        </div>
+                        <div class="header-show5">提交申请资料</div>
+
+                        <!-- ........ -->
+                        <div class="dot1 animate-bounce-up"></div>
+                        <div class="dot2 animate-bounce-down"></div>
+                        <div class="dot3 animate-bounce-up"></div>
+                        <div class="dot4 animate-bounce-down"></div>
+                        <div class="dot5 animate-bounce-up"></div>
+                        <div class="dot6 animate-bounce-down"></div>
+                        <div class="dot7 animate-bounce-up"></div>
+                        <div class="dot8 animate-bounce-down"></div>
+
+
+                        <div class="header-img6  wobble-vertical">
+                            <img src="../img/q.png" alt="">
+                        </div>
+                        <div class="header-show6">申鲜生总部审核电话通知结果</div>
+
+                        <!-- ........ -->
+                        <div class="dot01 animate-bounce-up"></div>
+                        <div class="dot02 animate-bounce-down"></div>
+                        <div class="dot03 animate-bounce-up"></div>
+                        <div class="dot04 animate-bounce-down"></div>
+                        <div class="dot05 animate-bounce-up"></div>
+                        <div class="dot06 animate-bounce-down"></div>
+                        <div class="dot07 animate-bounce-up"></div>
+                        <div class="dot08 animate-bounce-down"></div>
+
+                        <div class="header-img7  wobble-vertical">
+                            <img src="../img/r.png" alt="">
+                        </div>
+                        <div class="header-show7">申请通过之后成为申鲜生区域代理</div>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
+           <!-- 最后 -->
+           <div class="details-last runin" data-animate="bounceInRight,1s,linear">
+            <div class="Phone">
+                <div class="phone">
+                    <img src="../img/phone.png" alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>电话: 13215647890</p>
+            </div>
+            <div class="Address">
+                <div class="address">
+                    <img src="../img/address.png" alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>地址: 黑龙江省哈尔滨市南岗区一曼街16号龙威大厦</p>
+            </div>
+            <div class="Email">
+                <div class="email">
+                    <img src="../img/email.png"  alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>邮箱: 13215647890@qq.com</p>
+            </div>
+            <div class="Web">
+                <div class="web">
+                    <img src="../img/web.png" alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>网址: www.shenxiansheng.com</p>
+            </div>
+            <div class="Weibo">
+                <div class="weibo">
+                    <img src="../img/weibo.png" alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>微博: 申先生123123</p>
+            </div>
+            <div class="Kefu">
+                <div class="kefu">
+                    <img src="../img/kefu.png" alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>在线客服</p>
+            </div>
+
+            <div class="last-img1">
+                <img src="../img/logo.jpg" alt="" style="width:100%;height:100%;">
+            </div>
+            <p class="details-p">备案号：325684022IP444465</p>
+        </div>
+        </div>    
+    
+    <script src="../js/rem.js"></script>
+</body>
+</html>

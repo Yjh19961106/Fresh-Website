@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>简单实用响应式Tab选项卡切换导航菜单js插件</title>
+<meta name="keywords" content="简单实用,响应式,Tab选项卡,切换,导航菜单,js插件" />
+<meta name="description" content="简单实用响应式Tab选项卡切换导航菜单js插件下载。包含多种不同风格类型Tab选项卡样式，自适应手机移动端，简单实用。" /> 
+<meta name="author" content="js代码(www.jsdaima.com)" />
+<meta name="copyright" content="js代码(www.jsdaima.com)" />
+<link rel="stylesheet" type="text/css" href="../css/nb.css" />
+<script src="../js/modernizr.custom.js"></script>
+</head>
+<body>
+<div class="container">
+	<section>
+		<div class="tabs tabs-style-fillup">
+			<nav>
+				<ul>
+					<li><a href="#section-fillup-1" class="icon icon-home"><span>团长招募</span></a></li>
+					<li><a href="#section-fillup-2" class="icon icon-gift"><span>代理招募</span></a></li>
+				</ul>
+			</nav>
+			<div class="content-wrap">
+				<section id="section-fillup-1"><p>1</p></section>
+				<section id="section-fillup-2"><p>2</p></section>
+			</div>
+		</div>
+	</section>
+</div>
+
+<script src="../js/cbpFWTabs.js"></script>
+<script type="text/javascript">
+(function() {
+	[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+		new CBPFWTabs( el );
+	});
+})();
+</script>
+</body>
+</html>

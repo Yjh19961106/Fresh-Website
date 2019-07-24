@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>申鲜生</title>
+    <link rel="stylesheet" href="../css/rem.css">
+    <link rel="stylesheet" href="../css/dynamics.css">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+        <div id="content">
+            <!-- 头部 -->
+            <div id="head" >
+                <!-- 顶部导航栏 -->
+                <div class="First">
+                    <div class="box">
+                    <!-- logo图片 -->
+                    <div class="nav-wrap">
+                        <a href="" class="nav-logo">
+                            <img src="../img/k.png" alt="logo">
+                        </a>
+                    </div>
+                    <!-- 导航栏选项 -->
+                    <div id="nav">
+                        <div class="navSelected_0">
+                            <div class="nav_01">
+                                <a href="index.html">首页</a>
+                            </div>
+                            <div class="nav_02">
+                                <a href="aboutUs.html">关于我们</a>
+                            </div>
+                            <div class="nav_03">
+                                <a href="culture.html">企业文化</a>
+                            </div>
+                            <div class="nav_04">
+                                <a href="dynamics.html">企业动态</a>
+                            </div>
+                            <div class="nav_05">
+                                <a href="joinUs.html">加入我们</a>
+                            </div>
+                        </div>
+                    </div>        
+                    <div>
+                    <!-- 文字 -->
+                    <div class="dynamics-1">企业动态</div>
+                    <div class="dynamics-2">Enterprise Dynamics</div>
+                    <div class="dynamics-3"></div>
+                </div>
+            </div>
+            <!-- 中间部分 -->
+            <div class="middle">
+                <div class="dynamics-block">
+                    <div class="dynamics-line1">
+                        <div class="announcement" id="announcement1" type="button">企业公告</div>
+                        <div class="news" id="news1" type="button">行业动态</div>
+                    </div>
+                </div>
+                <!-- 点击显示 点击隐藏 -->
+                <script> 
+                    $("#announcement1").click(function () {
+                        $("#announcementshow").show();
+                        $("#newsshow").hide();
+                        $("#announcement1").css('color','#ff3000');
+                        $("#news1").css('color','#333333');
+                        console.log("1")
+                    });
+                    $("#news1").click(function () {
+                        $("#announcementshow").hide();
+                        $("#newsshow").show();
+                        $("#announcement1").css('color','#333333');
+                        $("#news1").css('color','#ff3000');
+                        console.log("2")
+                    });
+                </script>
+                
+                <div>
+                    <!-- 点击团长招募 -->
+                    <div class="announcement-block" id="announcementshow" style="display:block">
+                        <div class="a-block1">
+                            <div class="a-name1">申先生商城小程序正式上线</div>
+                            <div class="a-time1">2019-05-20</div>
+                        </div>
+                        <div class="a-block2">
+                            <div class="a-name2">申先生商城小程序正式上线</div>
+                            <div class="a-time2">2019-05-20</div>
+                        </div>
+                        <div class="a-block3">
+                            <div class="a-name3">申先生商城小程序正式上线</div>
+                            <div class="a-time3">2019-05-20</div>
+                        </div>
+                        <!-- 页码 -->
+                        <button class="page1" id="page1">1</button>
+                        <button class="page2" id="page2">2</button>
+                        <button class="page3" id="page3">3</button>
+                        <button class="page4" id="page4">4</button>
+                        <button class="nextpage" id="nextpage">下一页</button>
+                    </div>
+
+                    <!-- 点击数字页码按钮 -->
+                    <script> 
+                            $("#page1").click(function () {
+                                // $("#announcementshow").show();
+                                // $("#newsshow").hide();
+                                $("#page1").css('color','white');
+                                $("#page1").css('background-color','#008d49');
+                                $("#page2").css('color','#333333');
+                                $("#page2").css('background-color','white');
+                                $("#page3").css('color','#333333');
+                                $("#page3").css('background-color','white');
+                                $("#page4").css('color','#333333');
+                                $("#page4").css('background-color','white');
+                                console.log("1")
+                            });
+                            $("#page2").click(function () {
+                                // $("#announcementshow").show();
+                                // $("#newsshow").hide();
+                                $("#page2").css('color','white');
+                                $("#page2").css('background-color','#008d49');
+                                $("#page1").css('color','#333333');
+                                $("#page1").css('background-color','white');
+                                $("#page3").css('color','#333333');
+                                $("#page3").css('background-color','white');
+                                $("#page4").css('color','#333333');
+                                $("#page4").css('background-color','white');
+                                console.log("2")
+                            });
+                            $("#page3").click(function () {
+                                // $("#announcementshow").show();
+                                // $("#newsshow").hide();
+                                $("#page3").css('color','white');
+                                $("#page3").css('background-color','#008d49');
+                                $("#page2").css('color','#333333');
+                                $("#page2").css('background-color','white');
+                                $("#page1").css('color','#333333');
+                                $("#page1").css('background-color','white');
+                                $("#page4").css('color','#333333');
+                                $("#page4").css('background-color','white');
+                                console.log("3")
+                            });
+                            $("#page4").click(function () {
+                                // $("#announcementshow").show();
+                                // $("#newsshow").hide();
+                                $("#page4").css('color','white');
+                                $("#page4").css('background-color','#008d49');
+                                $("#page2").css('color','#333333');
+                                $("#page2").css('background-color','white');
+                                $("#page3").css('color','#333333');
+                                $("#page3").css('background-color','white');
+                                $("#page1").css('color','#333333');
+                                $("#page1").css('background-color','white');
+                                console.log("4")
+                            });
+                        </script>
+
+
+
+                    <!-- 点击区域代理 -->
+                    <div id="newsshow" style="display:none">
+                       
+                    </div>
+                    
+
+                </div>
+                
+
+            </div>
+
+           <!-- 最后 -->
+           <div class="details-last runin" data-animate="bounceInRight,1s,linear">
+            <div class="Phone">
+                <div class="phone">
+                    <img src="../img/phone.png" alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>电话: 13215647890</p>
+            </div>
+            <div class="Address">
+                <div class="address">
+                    <img src="../img/address.png" alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>地址: 黑龙江省哈尔滨市南岗区一曼街16号龙威大厦</p>
+            </div>
+            <div class="Email">
+                <div class="email">
+                    <img src="../img/email.png"  alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>邮箱: 13215647890@qq.com</p>
+            </div>
+            <div class="Web">
+                <div class="web">
+                    <img src="../img/web.png" alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>网址: www.shenxiansheng.com</p>
+            </div>
+            <div class="Weibo">
+                <div class="weibo">
+                    <img src="../img/weibo.png" alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>微博: 申先生123123</p>
+            </div>
+            <div class="Kefu">
+                <div class="kefu">
+                    <img src="../img/kefu.png" alt="" style="width: 100%;height:100%;">
+                </div>
+                <p>在线客服</p>
+            </div>
+
+            <div class="last-img1">
+                <img src="../img/logo.jpg" alt="" style="width:100%;height:100%;">
+            </div>
+            <p class="details-p">备案号：325684022IP444465</p>
+        </div>
+            
+        </div>    
+    
+    <script src="../js/rem.js"></script>
+</body>
+</html>

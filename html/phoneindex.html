@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>申鲜生</title>
+    <link rel="stylesheet" href="../css/rem.css">
+    <link rel="stylesheet" href="../css/phoneindex.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+</head>
+<body>
+    <div class="content">
+        <!-- 头部 -->
+       <div class="head">
+           <div class="show-head">
+                <div class="burger" onclick="changeDisplay()" id="burger" type="button" value="a">
+                        <div class="x"></div>
+                        <div class="y"></div>
+                        <div class="z"></div>
+                </div>
+                <script>
+                    function changeDisplay() {
+                        console.log("1");
+                        if ($("#burger").attr("value")== "a") {
+                        $("#Show").show();
+                        $("#burger").attr("value", "b");
+                    }
+                        else {
+                            $("#Show").hide();
+                            $("#burger").attr("value", "a");
+                        } 
+                    } 
+                </script>
+                <div class="logo">
+                    <img src="../img/k.png" alt="" style="width:100;height:100%;">
+                </div>
+           </div>
+           <div class="hidden-head" id="Show" style="display:none;">
+                <div class="run">
+                    <a href="../html/phoneindex.html">首页</a>
+                </div>
+                <div class="run">
+                    <a href="../html/phoneaboutus.html">关于我们</a>
+                </div>
+                <div class="run">
+                    <a href="../html/phoneculture.html">企业文化</a>
+                </div>
+                <div class="run">
+                    <a href="../html/phonedynamics.html">企业动态</a>
+                </div>
+                <div class="run">
+                    <a href="../html/phonejoinus.html">加入我们</a>
+                </div>
+           </div>
+       </div>
+       <!-- 轮播图 -->
+       <div class="banner" id="banner">
+            <div class="slider_list">
+                <div class="swiper-slide">
+                    <a href="javascript:;">
+                        <img src="http://lorempixel.com/400/200/?image=0" title="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="javascript:;">
+                        <img src="http://lorempixel.com/400/200/?image=1" title="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="javascript:;">
+                        <img src="http://lorempixel.com/400/200/?image=2" title="">
+                    </a>
+                </div>
+            </div>
+            <ol class="pagination"></ol>
+        </div> 
+        <!-- 品牌介绍 -->
+        <div class="box1">
+            <p class="english-title1">BRAND INTRODUCTION</p>
+            <p class="title1">品牌简介</p>
+
+            <div class="text1">
+                    申鲜生平台于2019年5月5日上线，以小程序的形式打造社区团购平台。
+                    致力于为社区家庭提供高品质、底价、便利的高频日用品及生鲜食品。有效增加门店商品种类，客流量，解决消费者购物难题。
+            </div>
+            <a href="">
+                <div class="btn" onclick="a" type="button">了解更多</div>
+            </a>
+        </div>
+        <!-- 核心优势 -->
+        <div class="box2">
+            <div class="img2">
+                <img src="../img/e.png" alt="" style="width:100%;height:100%;">
+            </div>
+            <div class="english-title2">CORE STRENGTHS</div>
+            <div class="title2">核心优势</div>
+        </div>
+        <!-- 4个图片 -->
+        <div class="box3">
+            <div class="list1">
+                <div class="item1">
+                    <div class="item-img">
+                        <img src="../img/f.png" alt="" style="width:100%;height:100%">
+                    </div>
+                    <p class="item-show1">产地直采</p>
+                    <p class="item-show2">提供各种优质</p>
+                    <p class="item-show3">新鲜的上线产品</p>
+                    
+                </div>
+                <div class="item2">
+                    <div class="item-img">
+                        <img src="../img/g.png" alt="" style="width:100%;height:100%">
+                    </div>
+                    <p class="item-show1">售后无忧</p>
+                    <p class="item-show2">闪电赔付</p>
+                    <p class="item-show3">安心购物</p>
+                </div>
+            </div>
+            <div class="list1">
+                    <div class="item1">
+                        <div class="item-img">
+                            <img src="../img/h.png" alt="" style="width:100%;height:100%">
+                        </div>
+                        <p class="item-show1">24小时到货</p>
+                        <p class="item-show2">保证您今天买</p>
+                        <p class="item-show3"> 明天到</p>
+                        
+                    </div>
+                    <div class="item2">
+                        <div class="item-img">
+                            <img src="../img/i.png" alt="" style="width:100%;height:100%">
+                        </div>
+                        <p class="item-show1">确保底价</p>
+                        <p class="item-show2">压低价格不减品质</p>
+                        <p class="item-show3"> 批发的价格做零售</p>
+                    </div>
+            </div>
+        </div>
+        <!-- 3个招募 -->
+        <div class="box4" style=" z-index: -1000">
+            <div class="header">
+                <!-- <div>
+                    <img src="../img/01.jpg" alt="" style="opacity:.3;width:100%;height:100%;">
+                </div> -->
+                <div class="header-logo">
+                    <img src="../img/a.png" alt="" style="width:100%;height:100%;">
+                </div>
+                <p class="header-show1">团长招募</p>
+                <p class="header-show2">0成本，0风险，收益稳定</p>
+                <p class="header-show3">手把手教学，保姆级培训</p>
+            </div>
+
+            <div class="header">
+                
+                <div class="header-logo">
+                    <img src="../img/b.png" alt="" style="width:100%;height:100%;">
+                </div>
+                <p class="header-show1">区域代理招募</p>
+                <p class="header-show2">创业蓝海新风口</p>
+                <p class="header-show3">申鲜生等待有梦想的你</p>
+            </div>
+            
+            <div class="header">
+                
+                <div class="header-logo">
+                    <img src="../img/c.png" alt="" style="width:100%;height:100%;">
+                </div>
+                <p class="header-show1">供应商招募</p>
+                <p class="header-show2">客户广，需求大</p>
+                <p class="header-show3">不压货款</p>
+            </div>
+
+        </div>
+        <!-- 最后 -->
+        <div class="box5">
+            <div class="last-show1">地址:黑龙江省哈尔滨市南岗区一曼街16号龙威大厦B402A室</div>
+            <div class="last-show2">联系我们:13351003782</div>
+            <div class="last-img">
+                    <img src="../img/logo.jpg" alt="" style="width:100%;height:100%;">
+            </div>
+            <div class="last-show3">黑ICP备16456132号-10&nbsp;&nbsp;哈尔滨雷程商贸有限公司版权所有版权所有&nbsp;&nbsp;营业执照</div>
+        </div>
+    </div>
+    <script src="../js/rem.js"></script>
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../js/rotationChart.js"></script>
+    <script src="../js/rem2.js"></script>
+    <script src="../js/btn.js"></script>
+</body>
+</html>

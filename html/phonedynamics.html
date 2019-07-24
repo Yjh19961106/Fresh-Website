@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>企业动态-申鲜生</title>
+    <link rel="stylesheet" href="../css/rem.css">
+    <link rel="stylesheet" href="../css/phonedynamics.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+</head>
+<body>
+        <div class="content">
+                <!-- 头部 -->
+               <div class="head">
+                   <div class="show-head">
+                        <div class="burger" onclick="changeDisplay()" id="burger" type="button" value="a">
+                                <div class="x"></div>
+                                <div class="y"></div>
+                                <div class="z"></div>
+                        </div>
+                        <script>
+                            function changeDisplay() {
+                                console.log("1");
+                                if ($("#burger").attr("value")== "a") {
+                                $("#Show").show();
+                                $("#burger").attr("value", "b");
+                                }
+                                else {
+                                    $("#Show").hide();
+                                    $("#burger").attr("value", "a");
+                                } 
+                            } 
+                        </script>
+                        <div class="logo">
+                            <img src="../img/k.png" alt="" style="width:100;height:100%;">
+                        </div>
+                    </div>
+                    <div class="hidden-head" id="Show" style="display:none;">
+                        <div class="run">
+                            <a href="../html/phoneindex.html">首页</a>
+                        </div>
+                        <div class="run">
+                            <a href="../html/phoneaboutus.html">关于我们</a>
+                        </div>
+                        <div class="run">
+                            <a href="../html/phoneculture.html">企业文化</a>
+                        </div>
+                        <div class="run">
+                            <a href="../html/phonedynamics.html">企业动态</a>
+                        </div>
+                        <div class="run">
+                            <a href="../html/phonejoinus.html">加入我们</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 公告 -->
+                <div class="item-Announcement">
+                    <div class="Announcement">Enterprise Announcement</div>
+                    <div class="announcement">企业公告</div>
+                    <div class="Announcement-img">
+                        <img src="../img/e.png" alt="">
+                    </div>
+                    <div class="box3-list">
+                        <ul>
+                            <a href="../html/phonestory.html" >
+                                <span class="disc"></span>
+                                <span class="list-title">申先生商城小程序正式上线</span>
+                                <span class="date">2019-05-15</span>
+                            </a>
+                                
+                            <a href="../html/phonestory.html" >
+                                <span class="disc"></span>
+                                <span class="list-title">申先生商城小程序正式上线</span>
+                                <span class="date">2019-04-15</span>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 动态 -->
+                <div class="item-Dynamics">
+                    <div class="Dynamics">Industry News</div>
+                    <div class="dynamics">行业动态</div>
+                    <div class="box3-list">
+                            <ul>
+                                <a href="../html/phonestory.html" class="list2">
+                                    <span class="disc"></span>
+                                    <span class="list-title">申先生商城小程123序正式上线</span>
+                                    <span class="date">2019-05-15</span>
+                                </a>
+                                    
+                                <a href="../html/phonestory.html" class="list2">
+                                    <span class="disc"></span>
+                                    <span class="list-title">申先生商城小程序正式123上线</span>
+                                    <span class="date">2019-04-15</span>
+                                </a>
+                            </ul>
+                        </div>
+                </div>
+                 <!-- 最后 -->
+                 <div class="box5">
+                        <div class="last-show1">地址:黑龙江省哈尔滨市南岗区一曼街16号龙威大厦B402A室</div>
+                        <div class="last-show2">联系我们:13351003782</div>
+                        <div class="last-img">
+                                <img src="../img/logo.jpg" alt="" style="width:100%;height:100%;">
+                        </div>
+                        <div class="last-show3">黑ICP备16456132号-10&nbsp;&nbsp;哈尔滨雷程商贸有限公司版权所有&nbsp;&nbsp;营业执照</div>
+                    </div>
+        </div>       
+    <script src="../js/rem.js"></script>
+    <script src="../js/rem2.js"></script>
+    <script src="../js/btn.js"></script>
+</body>
+</html>

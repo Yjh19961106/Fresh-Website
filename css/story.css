@@ -1,0 +1,394 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #f7f8f7;
+}
+/* 顶部导航栏 */
+#head {
+    height: 6.53rem;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    position: relative;
+    background-image: url(../img/01.jpg);
+    background-size:cover;
+}
+.First {
+    width: 100%;
+}
+.box {
+    height: 0.8rem;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    position: fixed;
+    z-index: 999;
+}
+.nav-wrap {
+    left: 3.6rem;
+    top: 0.2rem;
+    position: absolute;
+    width: 1.54rem;
+    height: 0.47rem;
+}
+.nav-logo {
+    display: flex;
+    width: 100%;
+    height: 0.47rem;
+    
+    float: left;   
+}
+.logo {
+    flex: 1;
+    align-items: center;
+    width: 1.24rem;
+    height: 0.47rem;
+}
+#nav{
+    left: 10.35rem;
+    top: 0.24rem;
+    color: #fff;
+    position: relative;
+}
+.nav_01 ,.nav_02 ,.nav_03 ,.nav_04 ,.nav_05 {
+    width: 1rem;
+    font-size: 0.18em;
+    line-height: 0.36rem;
+    text-align: center;
+    font-family: AdobeHeitiStd-Regular;
+    color: black;
+    float: left;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+}
+.nav_03 a {
+    color:#148f00;
+}
+#nav a:hover {
+    color: #148f00;
+    border: 0.02rem solid #148f00;
+    border-style: none none solid none;
+}
+/* 文字 */
+.culture-1 {
+    color: white;
+    font-size: 0.6rem;
+    line-height: 0.27rem;
+    padding: 0;
+    text-align: center;
+    left: -4.96rem;
+    top: 2.84rem;
+    position: absolute;
+}
+.culture-2 {
+    color: white;
+    font-size: 0.28rem;
+    line-height: 0.27rem;
+    left: -4.96rem;
+    top: 3.57rem;
+    position: absolute;
+    border: 1px solid white;
+    border-style: none none solid none;
+}
+.culture-3 {
+    background: #fff;
+    left: -4.96rem;
+    top: 3.87rem;
+    position: absolute;
+    width: 1.04rem;
+    height: 0.02rem;
+}
+.HeaderMessage1 {
+    width: 8.62rem;
+	height: 12.51rem;
+    background-color: #ffffff;
+    left: 3.54rem;
+    top: 1.02rem;
+    position: relative;
+    float: left;    
+}
+.HeaderMessage2 {
+    width: 3.18rem;
+	height: 3.56rem;
+    background-color: #ffffff;
+    left: 12.42rem;
+    top: 1.02rem;
+    position: relative;
+}
+.title {
+	height: 0.37rem;
+	font-family: MyriadPro-Regular;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.24rem;
+    letter-spacing: 0rem;
+    text-align: center;
+    color: #333333;
+    margin-top: 0.47rem;
+}
+.photo {
+    width: 1.86rem;
+    height: 2.81rem;
+    margin-left: 1.5rem;
+    margin-top: 0.36rem;
+}
+.name1 ,.name2 {
+    width: 0.94rem;
+	height: 0.21rem;
+	font-family: MyriadPro-Regular;
+	font-size: 0.22rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+    color: #333333;
+    left: 4.25rem;
+    top: 1.32rem;
+    position: absolute;
+}
+.name2 {
+	height: 0.18rem;
+	font-size: 0.18rem;
+    left: 5.4rem;
+    top: 1.33rem;
+}
+.name3 ,.name4 {
+    width: 0.95rem;
+	height: 0.21rem;
+	font-family: MyriadPro-Regular;
+	font-size: 0.22rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+    color: #333333;
+    left: 4.25rem;
+    top: 1.71rem;
+    position: absolute;
+}
+.name4 {
+	height: 0.18rem;
+	font-size: 0.18rem;
+	line-height: 0.3rem;
+    left: 5.4rem;
+    top: 1.73rem;
+}
+.position1 ,.position2 {
+    font-family: MyriadPro-Regular;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 0.22rem;
+    width: 0.95rem;
+	height: 0.21rem;
+	font-size: 0.22rem;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+    color: #333333;
+    left: 4.25rem;
+    top: 2.16rem;
+    position: absolute;
+}
+.position2 {
+    width: 2.53rem;
+	height: 0.53rem;
+    border: solid 0.01rem #888888;
+	font-size: 0.18rem;
+	line-height: 0.24rem;
+    left: 5.4rem;
+}
+.slogan1 ,.slogan2 {
+    width: 0.95rem;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	line-height: 0.3rem; 
+    font-family: MyriadPro-Regular;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #333333;
+    top: 2.95rem;
+    left: 4.25rem;
+    position: absolute;
+}
+.slogan2 {
+    width: 2.53rem;
+	height: 0.64rem;
+    border: solid 0.01rem #888888;
+	font-size: 0.18rem;
+	line-height: 0.24rem;
+    left: 5.4rem;   
+}
+.message {
+    width: 7.92rem;
+	height: 5.9rem;
+	font-family: MyriadPro-Regular;
+	font-size: 0.2rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+    color: #333333;
+    left: 0.31rem;
+    top: 4.57rem;
+    position: absolute;
+    overflow: hidden;
+}
+.page-btn1 ,.page-btn2 {
+    width: 0.25rem;
+	height: 0.25rem;
+    background-color: #009944;
+    font-family: MyriadPro-Regular;
+	font-size: 0.18rem;
+	font-weight: normal;
+	font-stretch: normal;
+    line-height: 0.25rem;
+    text-align: center;
+	letter-spacing: 0rem;
+    color: white;
+    left: 3.88rem;
+    top: 11.63rem;
+    position: absolute;
+    border-radius: 50%;
+    border: solid 0.01rem #009944;
+}
+.page-btn2 {
+    left: 4.5rem;
+    color: #333333;
+    background: #fff;
+}
+.list {
+    width: 100%;
+	height: 0.66rem;
+    background-color: #83b767;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+.header-story {
+	height: 0.23rem;
+	font-family: MyriadPro-Regular;
+	font-size: 0.24rem;
+	font-weight: normal;
+    font-stretch: normal;
+	line-height: 0.24rem;
+	letter-spacing: 0rem;
+    color: #f7f8f7;
+    left: 0.33rem;
+    top: 0.21rem;
+    position: absolute;
+}
+.story-img {
+    width: 0.18rem;
+    height: 0.17rem;
+    left: 2.83rem;
+    top:0.25rem;
+    position: absolute;
+    border: 1px solid black;
+}
+.list1 ,.list2 ,.list3 ,.list4{
+    width: 100%;
+    height: 0.7rem;
+    border: 0.01rem dashed #bfbfbf;
+    border-style: none none dashed none;
+    position: relative;
+}
+.story-name1 {
+	height: 0.18rem;
+	font-family: PingFang-SC-Regular;
+	font-size: 0.18rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.27rem;
+	letter-spacing: 0rem;
+    color: #333333;
+    left: 0.27rem;
+    top: 0.26rem;
+    position: absolute;
+}
+.story-time1 {
+	height: 0.13rem;
+	font-family: PingFang-SC-Regular;
+	font-size: 0.16rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.27rem;
+	letter-spacing: 0rem;
+    color: #333333;
+    left: 2.13rem;
+    top: 0.26rem;
+    position: absolute;
+}
+/* 最后 */
+.details-last {
+    width: 100%;
+    height: 4.97rem;
+    background: #232a24;
+    left: 0;
+    top: 11.26rem;
+    position: relative;
+}
+.last-show1 {
+    width: 2.64rem;
+    font-size: 0.18em;
+    color: #fff;
+    /* padding: 0 0.5rem 0 0.5rem; */
+    border: 1px solid #fff;
+    border-style: none solid none none;
+    line-height: 0.24rem;
+    text-align: center;
+    left: 3.15rem;
+    top: 0.78rem;
+    position: absolute;
+}
+.last-show2 {
+    width: 3.55rem;
+    font-size: 0.18em;
+    color: #fff;
+    /* padding: 0 0.5rem 0 0.5rem; */
+    border: 1px solid #fff;
+    border-style:  none solid none none;
+    line-height: 0.24rem;
+    text-align: center;
+    left: 5.71rem;
+    top: 0.78rem;
+    position: absolute;
+}
+.last-show3 {
+    width: 3.53rem;
+    font-size: 0.18em;
+    color: #fff;
+    border: 1px solid #fff;
+    border-style:  none solid none none ;
+    line-height: 0.24rem;
+    text-align: center;
+    left: 9.2rem;
+    top: 0.78rem;
+    position: absolute;
+}
+.last-show4 {
+    width: 3.53rem;
+    font-size: 0.18em;
+    color: #fff;
+    line-height: 0.24rem;
+    text-align: center;
+    left: 12.75rem;
+    top: 0.78rem;
+    position: absolute;
+}
+.last-show5 {
+    /* width: 0.78rem; */
+    font-size: 0.18em;
+    color: #fff;
+    left: 3.93rem;
+    top: 1.58rem;
+    position: absolute;
+}
+.last-img {
+    width: 1.37rem;
+    height:1.37rem;
+    background: #6faf64;
+    left: 8.91rem;
+    top: 2.47rem;
+    position: absolute;
+}

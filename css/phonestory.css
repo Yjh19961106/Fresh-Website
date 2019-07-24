@@ -1,0 +1,40 @@
+.Story {
+    width: 100%;
+    position: relative;
+    top: 1rem;
+    left: 0;
+    z-index: -1000;
+    
+}
+.Story-title {
+    text-align: center;
+    font-size: 0.4rem;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.36533rem;
+    padding: 0 0.5rem;
+}
+.Story-date {
+    text-align: center;
+    font-size: .3rem;
+    font-weight: 400;
+    color: #888;
+    line-height: 0.5rem;
+    margin-bottom: .4rem;
+}
+.Story-img {
+    height: 6.5rem;
+    width: 70%;
+    margin-left: 15%;
+}
+.Story-message {
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 0.5rem;
+    font-size: 0.35rem;
+}
+.box5 {
+    left: 0;
+    top: 23rem;
+    position: absolute
+}
